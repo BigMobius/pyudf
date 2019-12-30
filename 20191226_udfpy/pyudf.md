@@ -171,4 +171,5 @@ pyspark.SparkContext(pyFiles = pyFiles_1)
 
 ```
 ##### 5. 目的以及总结
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前hive不支持非java语言注册永久函数 ，并且add archive不支持上传至hdfs，这就带来了非常大的局限性，但是MaxCompute(ODPS)已经完全支持python注册永久函数，所以不就的将来希望可以直接使用python编写可永久注册udf函数。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前hive不支持非java语言注册永久函数 ，并且add archive不支持上传至hdfs，这就带来了非常大的局限性，但是MaxCompute(ODPS)已经完全支持python注册永久函数，所以不久
+的将来希望可以直接使用python编写可永久注册udf函数。
