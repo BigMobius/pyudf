@@ -164,8 +164,8 @@ spark-submit --archive 'xx.zip' udf.py
 # 2.使用 py-files提交模块环境
 spark-submit --py-files a.zip,b.zip,c.zip udf.py
 # 3.直接在py内部进行sc属性添加
-pyFiles_1=["D:/pysparktest/package.zip"] #压缩的包的所在路径
-pyFiles_2=["D:/pysparktest/add.py","D:/pysparktest/mult.py","D:/pysparktest/pandas.py"] #第二种
+pyFiles_1=["./pysparktest/package.zip"] # 压缩的包的所在路径
+pyFiles_2=["./pysparktest/add.py","./pysparktest/mult.py","./pysparktest/pandas.py"] # 第二种模块所在路径
 pyspark.SparkContext(pyFiles = pyFiles_1)
 # 添加对象属性
 
